@@ -1,0 +1,14 @@
+{
+  "name": "bigparsing_confirmed",
+  "version": "1.0.0",
+  "description": "The problem consists in extracting data from a JSON file too big to be parsed / hold in memory as a whole.",
+  "main": "solution.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandre LASCAUX",
+  "license": "ISC",
+  "dependencies": {
+    "stream-json": "^1.7.4"
+  }
+}
