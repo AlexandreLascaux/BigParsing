@@ -3,7 +3,7 @@ const StreamArray = require('stream-json/streamers/StreamArray')
 const {Writable} = require('stream')
 
 const id = process.argv.slice(2)[0]
-const fileStream = fs.createReadStream('input.json')
+const fileStream = fs.createReadStream('json/input.json')
 const jsonStream = StreamArray.withParser()
 
 const processingStream = new Writable({
